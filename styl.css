@@ -1,0 +1,4 @@
+body:has(#theme-toggle:checked) {
+    background: #222;
+    color: #fff
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stars{
+    display: inline-block;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size: 30px;
+    user-select: none;
+}
+.stars :input{
+    display: none;
+}
+
+.stars label{
+    color: #ccc;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.stars input:checked label,
+.stars label :hover,
+.stars label :hover label{
+    color: aqua;
+}

@@ -1,0 +1,12 @@
+# pip install pyjokes
+
+import pyjokes as pj
+
+print("="*30)
+print("Python Jokes Generator")
+print("="*30)
+
+while True:
+    print(pj.get_joke())
+    input("Press enter To Continue..")
+    print("-"*30)
